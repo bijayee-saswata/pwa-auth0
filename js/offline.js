@@ -19,7 +19,8 @@
   function updateNetworkStatus() {
     if (navigator.onLine) {
       header.classList.remove("app__offline");
-      menuHeader.style.background = "#1E88E5";
+      toast("Back to online..");
+      menuHeader.style.background = "#05965a";
     } else {
       toast("You are now offline..");
       header.classList.add("app__offline");
