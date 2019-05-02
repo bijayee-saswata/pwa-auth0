@@ -1,0 +1,28 @@
+{
+  "name": "PWA - Commits",
+  "short_name": "PWA",
+  "description": "Progressive Web Apps for Resources I like",
+  "start_url": "./index.html?utm=homescreen",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f5f5",
+  "theme_color": "#f5f5f5",
+  "icons": [
+    {
+      "src": "./images/144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "./images/48x48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    }
+  ],
+  "author": {
+    "name": "Bijayee-saswata",
+    "github": "https://github.com/bijayee-saswata",
+    "source-repo": "https://github.com/bijayee-saswata/pwa-auth0"
+  },
+  "gcm_sender_id": "1063553393774"
+}
