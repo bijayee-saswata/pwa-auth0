@@ -18,14 +18,20 @@
       .then(function(datas) {
         console.log(datas);
         datas.forEach(function(data) {
-          container.querySelector(".first").innerHTML = `<h4>Message: </h4>${
-            data.commit.message
-          }
-                                    <h4>Author: </h4>${data.commit.author.name}
-                                    <h4>Time: </h4>${data.commit.author.date}
-                                    <a href="${
-                                      data.html_url
-                                    }">Click To Visit</a>`;
+          container.innerHTML += `<section class="card">
+                                    <div>
+                                        <h4>Message: </h4>${data.commit.message}
+                                        <h4>Author: </h4>${
+                                          data.commit.author.name
+                                        }
+                                        <h4>Time: </h4>${
+                                          data.commit.author.date
+                                        }<br>
+                                        <a href="${
+                                          data.html_url
+                                        }">Click To Visit</a>
+                                    </div>
+                                    </section>`;
         });
 
         app.spinner.setAttribute("hidden", true); //hide spinner

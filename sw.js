@@ -1,3 +1,20 @@
+var cacheName = "pwa-commits-v3";
+
+var filesToCache = [
+  "./",
+  "./css/style.css",
+  "./images/books.png",
+  // "./images/Home.svg",
+  // "./images/ic_refresh_white_24px.svg",
+  // "./images/profile.png",
+  "./images/push-off.png",
+  // "./images/push-on.png",
+  "./js/app.js",
+  "./js/menu.js",
+  "./js/offline.js",
+  "./js/toast.js"
+];
+
 // Install Service Worker
 self.addEventListener("install", function(event) {
   console.log("Service Worker: Installing....");

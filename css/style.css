@@ -1,23 +1,6 @@
-/*
-
-# BEM (BLOCK, ELEMENT, MODIFIER) METHEDOLOGY
-
-<div class="card card--show">
-  <div class="card__title"></div>
-  <div class="card__container">
-
-  </div>
-</div>
-
-.card - BLOCK
-
-.card__title - ELEMENT
-
-.card--show - MODIFIER
-
-*/
-
-/* RESET styles */
+noscript {
+  margin-top: 200px;
+}
 
 *,
 *::after,
@@ -402,7 +385,6 @@ b {
 .card b {
   margin-right: 5px;
 }
-
 .card__temp,
 .card__followers,
 .card__following {
